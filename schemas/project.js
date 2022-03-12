@@ -32,6 +32,14 @@ export default {
        name: "githubURL",
        // The type of this field
        type: "string",
+     },
+     {
+       // The display name for this field
+       title: "Image Preview",
+       // The identifier for this field used in the api's
+       name: "imagePreview",
+       // The type of this field
+       type: "image",
      }
    ]
  }
