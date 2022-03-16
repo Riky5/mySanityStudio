@@ -7,10 +7,9 @@ export default {
 
   type: "document",
 
-   // Now we proceed to list the fields of our document
   fields: [
     {
-          // The display name for this field
+      // The display name for this field
        title: "Name",
       // The identifier for this field used in the api's
        name: "name",
@@ -18,28 +17,31 @@ export default {
        type: "string",
      },
      {
-       // The display name for this field
        title: "Description",
-       // The identifier for this field used in the api's
        name: "description",
-       // The type of this field
        type: "string",
      },
      {
-       // The display name for this field
+       title: "Tech Used",
+       name: "techUsed",
+       type: "array",
+       of: [{type: "string"}]
+     },
+     {
        title: "Github URL",
-       // The identifier for this field used in the api's
        name: "githubURL",
-       // The type of this field
        type: "string",
      },
      {
-       // The display name for this field
        title: "Image Preview",
-       // The identifier for this field used in the api's
        name: "imagePreview",
-       // The type of this field
        type: "image",
-     }
+     },
+     {
+      title: 'Author',
+      name: 'author',
+      type: 'reference',
+      to: [{type: 'person'}]
+    }
    ]
  }
