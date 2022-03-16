@@ -25,7 +25,7 @@ export default {
        title: "Tech Used",
        name: "techUsed",
        type: "array",
-       of: [{type: "string"}]
+       of: [{type: "tech"}],
      },
      {
        title: "Github URL",

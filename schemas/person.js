@@ -9,6 +9,11 @@ export default {
        type: "string",
      },
      {
+       title: "Role",
+       name: "role",
+       type: "string"
+     },
+     {
        title: "About / Paragraphs",
        name: "about",
        type: "array",
