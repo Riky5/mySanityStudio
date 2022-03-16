@@ -42,6 +42,6 @@ export default {
       name: 'author',
       type: 'reference',
       to: [{type: 'person'}]
-    }
+     }
    ]
  }

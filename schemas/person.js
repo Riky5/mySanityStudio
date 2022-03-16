@@ -9,15 +9,22 @@ export default {
        type: "string",
      },
      {
-       title: "About",
+       title: "About / Paragraphs",
        name: "about",
-       type: "string",
+       type: "array",
+       of: [{type: "string"}]
      },
      {
        title: "Tech",
        name: "tech",
        type: "array",
-       of: [{type: "string"}]
+       of: [{type: "tech"}]
+     },
+     {
+       title: "Education & Gurus",
+       name: "educationAndGurus",
+       type: "array",
+       of: [{type: "education"}]
      }
    ]
  }
