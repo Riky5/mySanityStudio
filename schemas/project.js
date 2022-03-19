@@ -10,38 +10,38 @@ export default {
   fields: [
     {
       // The display name for this field
-       title: "Name",
+      title: "Name",
       // The identifier for this field used in the api's
-       name: "name",
+      name: "name",
        // The type of this field
-       type: "string",
-     },
-     {
-       title: "Description",
-       name: "description",
-       type: "string",
-     },
-     {
-       title: "Tech Used",
-       name: "techUsed",
-       type: "array",
-       of: [{type: "tech"}],
-     },
-     {
-       title: "Github URL",
-       name: "githubURL",
-       type: "string",
-     },
-     {
-       title: "Image Preview",
-       name: "imagePreview",
-       type: "image",
-     },
-     {
-      title: 'Author',
-      name: 'author',
-      type: 'reference',
-      to: [{type: 'person'}]
-     }
+      type: "string",
+    },
+    {
+      title: "Description",
+      name: "description",
+      type: "string",
+    },
+    {
+      title: "Tech Used",
+      name: "techUsed",
+      type: "array",
+      of: [{type: "tech"}],
+    },
+    {
+      title: "Github URL",
+      name: "githubURL",
+      type: "string",
+    },
+    {
+      title: "Image Preview",
+      name: "imagePreview",
+      type: "image",
+    },
+    {
+      title: "Author",
+      name: "author",
+      type: "reference",
+      to: [{type: "person"}]
+    }
    ]
  }

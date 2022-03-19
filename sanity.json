@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "my Porftolio"
+    "name": "my Porftolio",
+    "basePath": "/studio"
   },
   "api": {
     "projectId": "udhmime6",

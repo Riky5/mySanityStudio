@@ -1,6 +1,6 @@
 export default {
-  title: "Tech",
-  name: "tech",
+  title: "Contact",
+  name: "contact",
   type: "document",
   fields: [
     {
@@ -9,9 +9,9 @@ export default {
       type: "string",
     },
     {
-      title: "Image Logo",
-      name: "logo",
-      type: "image",
+      title: "Link (url or email address)",
+      name: "link",
+      type: "string",
     },
   ]
  }
